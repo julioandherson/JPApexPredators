@@ -20,7 +20,12 @@ struct PredatorDetail: View {
                     Image(predator.type.rawValue)
                         .resizable()
                         .scaledToFit()
-                        
+                        .overlay {
+                            LinearGradient(stops: [
+                                Gradient.Stop(color: .clear, location: 0.8),
+                                Gradient.Stop(color: .black, location: 1)
+                            ], startPoint: .top, endPoint: .bottom)
+                        }
                     
                     // Dinossaur Image
                     Image(predator.image)
@@ -68,7 +73,7 @@ struct PredatorDetail: View {
                     
                     Link(predator.link, destination: URL(string: predator.link)!)
                         .font(.caption)
-                        .foregroundStyle(.blue)                    
+                        .foregroundStyle(.blue)
                 }
                 .padding()
                 .padding(.bottom)
@@ -83,5 +88,6 @@ struct PredatorDetail: View {
 }
 
 #Preview {
-    PredatorDetail(predator: Predators().apexPredators[2])
+    PredatorDetail(predator: Predators().apexPredators[10])
+        .preferredColorScheme(.dark)
 }
