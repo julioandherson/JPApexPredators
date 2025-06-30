@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9C2322E121E7200E88144 /* PredatorMapView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		28C9C1512DFA756400E88144 /* JPApexPredtators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexPredtators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9C2322E121E7200E88144 /* PredatorMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		28C9C1482DFA756300E88144 = {
 			isa = PBXGroup;
 			children = (
+				28C9C2322E121E7200E88144 /* PredatorMapView.swift */,
 				28C9C1532DFA756400E88144 /* JPApexPredtators */,
 				28C9C1522DFA756400E88144 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
