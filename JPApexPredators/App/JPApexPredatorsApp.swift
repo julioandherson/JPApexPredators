@@ -1,5 +1,5 @@
 //
-//  JPApexPredtatorsApp.swift
+//  JPApexPredatorsApp.swift
 //  JPApexPredtators
 //
 //  Created by Júlio Andherson de Oliveira Silva on 11/06/25.

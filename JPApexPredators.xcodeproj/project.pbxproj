@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9C2322E121E7200E88144 /* PredatorMapView.swift */; };
 		28C9C23D2E15D42900E88144 /* ApexStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 28C9C2362E15D42700E88144 /* ApexStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,8 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		28C9C1512DFA756400E88144 /* JPApexPredtators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexPredtators.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28C9C2322E121E7200E88144 /* PredatorMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorMapView.swift; sourceTree = "<group>"; };
+		28C9C1512DFA756400E88144 /* JPApexPredators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexPredators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C9C2362E15D42700E88144 /* ApexStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ApexStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,9 +50,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		28C9C1532DFA756400E88144 /* JPApexPredtators */ = {
+		28C9C1532DFA756400E88144 /* JPApexPredators */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JPApexPredtators;
+			path = JPApexPredators;
 			sourceTree = "<group>";
 		};
 		28C9C2372E15D42700E88144 /* ApexStickers */ = {
@@ -81,8 +79,7 @@
 		28C9C1482DFA756300E88144 = {
 			isa = PBXGroup;
 			children = (
-				28C9C2322E121E7200E88144 /* PredatorMapView.swift */,
-				28C9C1532DFA756400E88144 /* JPApexPredtators */,
+				28C9C1532DFA756400E88144 /* JPApexPredators */,
 				28C9C2372E15D42700E88144 /* ApexStickers */,
 				28C9C1522DFA756400E88144 /* Products */,
 			);
@@ -91,7 +88,7 @@
 		28C9C1522DFA756400E88144 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28C9C1512DFA756400E88144 /* JPApexPredtators.app */,
+				28C9C1512DFA756400E88144 /* JPApexPredators.app */,
 				28C9C2362E15D42700E88144 /* ApexStickers.appex */,
 			);
 			name = Products;
@@ -100,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28C9C1502DFA756300E88144 /* JPApexPredtators */ = {
+		28C9C1502DFA756300E88144 /* JPApexPredators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28C9C15C2DFA756600E88144 /* Build configuration list for PBXNativeTarget "JPApexPredtators" */;
+			buildConfigurationList = 28C9C15C2DFA756600E88144 /* Build configuration list for PBXNativeTarget "JPApexPredators" */;
 			buildPhases = (
 				28C9C14D2DFA756300E88144 /* Sources */,
 				28C9C14E2DFA756300E88144 /* Frameworks */,
@@ -115,13 +112,13 @@
 				28C9C23C2E15D42900E88144 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				28C9C1532DFA756400E88144 /* JPApexPredtators */,
+				28C9C1532DFA756400E88144 /* JPApexPredators */,
 			);
-			name = JPApexPredtators;
+			name = JPApexPredators;
 			packageProductDependencies = (
 			);
 			productName = JPApexPredtators;
-			productReference = 28C9C1512DFA756400E88144 /* JPApexPredtators.app */;
+			productReference = 28C9C1512DFA756400E88144 /* JPApexPredators.app */;
 			productType = "com.apple.product-type.application";
 		};
 		28C9C2352E15D42700E88144 /* ApexStickers */ = {
@@ -162,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28C9C14C2DFA756300E88144 /* Build configuration list for PBXProject "JPApexPredtators" */;
+			buildConfigurationList = 28C9C14C2DFA756300E88144 /* Build configuration list for PBXProject "JPApexPredators" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -176,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28C9C1502DFA756300E88144 /* JPApexPredtators */,
+				28C9C1502DFA756300E88144 /* JPApexPredators */,
 				28C9C2352E15D42700E88144 /* ApexStickers */,
 			);
 		};
@@ -204,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28C9C14C2DFA756300E88144 /* Build configuration list for PBXProject "JPApexPredtators" */ = {
+		28C9C14C2DFA756300E88144 /* Build configuration list for PBXProject "JPApexPredators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28C9C15A2DFA756600E88144 /* Debug */,
@@ -446,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28C9C15C2DFA756600E88144 /* Build configuration list for PBXNativeTarget "JPApexPredtators" */ = {
+		28C9C15C2DFA756600E88144 /* Build configuration list for PBXNativeTarget "JPApexPredators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28C9C15D2DFA756600E88144 /* Debug */,
