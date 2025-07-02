@@ -5,6 +5,7 @@
 //  Created by Júlio Andherson de Oliveira Silva on 11/06/25.
 //
 
+import MapKit
 import SwiftUI
 
 struct ContentView: View {
@@ -24,9 +25,11 @@ struct ContentView: View {
         NavigationStack {
             List(filteredDinos) { predator in
                 NavigationLink {
-                    Image(predator.image)
-                        .resizable()
-                        .scaledToFit()
+                    PredatorDetail(predator: predator, position: .camera(
+                        MapCamera(
+                            centerCoordinate: predator.location,
+                            distance: 30000
+                        )))
                 } label: {
                     HStack {
                         // Image

@@ -6,14 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9C2322E121E7200E88144 /* PredatorMapView.swift */; };
+		28C9C23D2E15D42900E88144 /* ApexStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 28C9C2362E15D42700E88144 /* ApexStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C9C23B2E15D42900E88144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C9C1492DFA756300E88144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C9C2352E15D42700E88144;
+			remoteInfo = ApexStickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28C9C2422E15D42900E88144 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				28C9C23D2E15D42900E88144 /* ApexStickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		28C9C1512DFA756400E88144 /* JPApexPredtators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexPredtators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9C2322E121E7200E88144 /* PredatorMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorMapView.swift; sourceTree = "<group>"; };
+		28C9C2362E15D42700E88144 /* ApexStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ApexStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		28C9C23E2E15D42900E88144 /* Exceptions for "ApexStickers" folder in "ApexStickers" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 28C9C2352E15D42700E88144 /* ApexStickers */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		28C9C1532DFA756400E88144 /* JPApexPredtators */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JPApexPredtators;
+			sourceTree = "<group>";
+		};
+		28C9C2372E15D42700E88144 /* ApexStickers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				28C9C23E2E15D42900E88144 /* Exceptions for "ApexStickers" folder in "ApexStickers" target */,
+			);
+			path = ApexStickers;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +81,9 @@
 		28C9C1482DFA756300E88144 = {
 			isa = PBXGroup;
 			children = (
+				28C9C2322E121E7200E88144 /* PredatorMapView.swift */,
 				28C9C1532DFA756400E88144 /* JPApexPredtators */,
+				28C9C2372E15D42700E88144 /* ApexStickers */,
 				28C9C1522DFA756400E88144 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				28C9C1512DFA756400E88144 /* JPApexPredtators.app */,
+				28C9C2362E15D42700E88144 /* ApexStickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +107,12 @@
 				28C9C14D2DFA756300E88144 /* Sources */,
 				28C9C14E2DFA756300E88144 /* Frameworks */,
 				28C9C14F2DFA756300E88144 /* Resources */,
+				28C9C2422E15D42900E88144 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				28C9C23C2E15D42900E88144 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				28C9C1532DFA756400E88144 /* JPApexPredtators */,
@@ -69,6 +123,26 @@
 			productName = JPApexPredtators;
 			productReference = 28C9C1512DFA756400E88144 /* JPApexPredtators.app */;
 			productType = "com.apple.product-type.application";
+		};
+		28C9C2352E15D42700E88144 /* ApexStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C9C23F2E15D42900E88144 /* Build configuration list for PBXNativeTarget "ApexStickers" */;
+			buildPhases = (
+				28C9C2342E15D42700E88144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				28C9C2372E15D42700E88144 /* ApexStickers */,
+			);
+			name = ApexStickers;
+			packageProductDependencies = (
+			);
+			productName = ApexStickers;
+			productReference = 28C9C2362E15D42700E88144 /* ApexStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +155,9 @@
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					28C9C1502DFA756300E88144 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					28C9C2352E15D42700E88144 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
@@ -100,12 +177,20 @@
 			projectRoot = "";
 			targets = (
 				28C9C1502DFA756300E88144 /* JPApexPredtators */,
+				28C9C2352E15D42700E88144 /* ApexStickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		28C9C14F2DFA756300E88144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9C2342E15D42700E88144 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,10 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C9C2332E121E7200E88144 /* PredatorMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C9C23C2E15D42900E88144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C9C2352E15D42700E88144 /* ApexStickers */;
+			targetProxy = 28C9C23B2E15D42900E88144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		28C9C15A2DFA756600E88144 /* Debug */ = {
@@ -259,8 +353,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,8 +381,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +392,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C9C2402E15D42900E88144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GH6U4Q2H8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApexStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.julioandherson.JPApexPredtators.ApexStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C9C2412E15D42900E88144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GH6U4Q2H8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApexStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.julioandherson.JPApexPredtators.ApexStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -319,6 +451,15 @@
 			buildConfigurations = (
 				28C9C15D2DFA756600E88144 /* Debug */,
 				28C9C15E2DFA756600E88144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C9C23F2E15D42900E88144 /* Build configuration list for PBXNativeTarget "ApexStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C9C2402E15D42900E88144 /* Debug */,
+				28C9C2412E15D42900E88144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
