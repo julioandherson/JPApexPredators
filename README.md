@@ -12,25 +12,29 @@ JP Apex Predators is an iOS app that showcases the apex predators from the Juras
 - Custom map showing dinosaur locations  
 - Use dinosaur stickers in iMessages
 
+## App in Action
+
+<img src="screenshots/demo.gif" width="300"/>
+
 ## Screenshots
 
-_Add a screenshot for each feature below:_
-
 ### Dinosaur Listing
-![Dinosaur Listing](screenshots/listing.png)
+<img src="screenshots/listing.png" width="300"/>
 
 ### Dinosaur Filter by Type
-![Dinosaur Listing](screenshots/filter.png)
+<img src="screenshots/filter.png" width="300"/>
 
 ### Dinosaur Details
-![Dinosaur Details](screenshots/details.png)
+<img src="screenshots/details.png" width="300"/>
 
 ### Custom Map Location
-![Map Location](screenshots/map.png)
-![Map Location](screenshots/map2.png)
+<p>
+  <img src="screenshots/map.png" width="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="screenshots/map2.png" width="300" style="display:inline-block;"/>
+</p>
 
 ### iMessage Stickers
-![iMessage Stickers](screenshots/imessage.png)
+<img src="screenshots/imessage.png" width="300"/>
 
 ## Project Structure
 
